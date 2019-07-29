@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Gateway", "Lean.Gateway\Lean.Gateway.csproj", "{996C462B-102E-4563-81B9-4C08446DD04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.IdentityServer", "Lean.IdentityServer\Lean.IdentityServer.csproj", "{53F11811-8070-4A44-922A-C015D7C8AFA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996C462B-102E-4563-81B9-4C08446DD04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996C462B-102E-4563-81B9-4C08446DD04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996C462B-102E-4563-81B9-4C08446DD04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996C462B-102E-4563-81B9-4C08446DD04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F11811-8070-4A44-922A-C015D7C8AFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F11811-8070-4A44-922A-C015D7C8AFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F11811-8070-4A44-922A-C015D7C8AFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F11811-8070-4A44-922A-C015D7C8AFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F6EC05D-05BA-4B91-BF97-D422879008E4}
+	EndGlobalSection
+EndGlobal

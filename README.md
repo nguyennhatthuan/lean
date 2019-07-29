@@ -1,4 +1,4 @@
-# Funny Application
+# Lean Application
 
 - This project is being implemented by the idea of buiding a ecosystem that using microservices architecture.
 - The main idea is building a simple ecommerce system in which includes Backend, Frontend and also Chatbot.

@@ -1,0 +1,3 @@
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.csproj.CoreCompileInputs.cache
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.AssemblyInfoInputs.cache
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.AssemblyInfo.cs

@@ -1,0 +1,3 @@
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.csproj.CoreCompileInputs.cache
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.AssemblyInfoInputs.cache
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.AssemblyInfo.cs
