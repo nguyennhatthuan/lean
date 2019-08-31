@@ -1,3 +1,11 @@
 D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.csproj.CoreCompileInputs.cache
 D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.AssemblyInfoInputs.cache
 D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.AssemblyInfo.cs
+D:\Sources\lean\Services\Lean\Lean.Gateway\bin\Debug\netcoreapp2.1\Lean.Gateway.deps.json
+D:\Sources\lean\Services\Lean\Lean.Gateway\bin\Debug\netcoreapp2.1\Lean.Gateway.runtimeconfig.json
+D:\Sources\lean\Services\Lean\Lean.Gateway\bin\Debug\netcoreapp2.1\Lean.Gateway.runtimeconfig.dev.json
+D:\Sources\lean\Services\Lean\Lean.Gateway\bin\Debug\netcoreapp2.1\Lean.Gateway.dll
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.csprojAssemblyReference.cache
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.RazorAssemblyInfo.cache
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.RazorAssemblyInfo.cs
+D:\Sources\lean\Services\Lean\Lean.Gateway\obj\Debug\netcoreapp2.1\Lean.Gateway.RazorTargetAssemblyInfo.cache

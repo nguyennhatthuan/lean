@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
 namespace Lean.Gateway
 {
@@ -19,6 +21,26 @@ namespace Lean.Gateway
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                    .AddJsonFile("ocelot.json")
+                    .AddEnvironmentVariables();
+                })
+                .ConfigureServices(service =>
+                {
+                    service.AddOcelot();
+                })
+                .ConfigureLogging((hostingContext, logging) =>
+                {
+                    // Add Logging
+                })
+                .UseIISIntegration()
+                .Configure(app =>
+                {
+                    app.UseOcelot().Wait();
+                });
     }
 }

@@ -1,3 +1,11 @@
 D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.csproj.CoreCompileInputs.cache
 D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.AssemblyInfoInputs.cache
 D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.AssemblyInfo.cs
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\bin\Debug\netcoreapp2.1\Lean.IdentityServer.deps.json
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\bin\Debug\netcoreapp2.1\Lean.IdentityServer.runtimeconfig.json
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\bin\Debug\netcoreapp2.1\Lean.IdentityServer.runtimeconfig.dev.json
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\bin\Debug\netcoreapp2.1\Lean.IdentityServer.dll
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.csprojAssemblyReference.cache
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.RazorAssemblyInfo.cache
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.RazorAssemblyInfo.cs
+D:\Sources\lean\Services\Lean\Lean.IdentityServer\obj\Debug\netcoreapp2.1\Lean.IdentityServer.RazorTargetAssemblyInfo.cache
