@@ -4,10 +4,10 @@ import {
   NumberCollectionState
 } from "./numberCollection.reducer";
 
-export interface State {
+export interface INumberCollectionState {
   numberCollection: NumberCollectionState;
 }
 
-export const rootReducers = combineReducers<State>({
+export const rootReducers = combineReducers<INumberCollectionState>({
   numberCollection: numberCollectionReducer
 });

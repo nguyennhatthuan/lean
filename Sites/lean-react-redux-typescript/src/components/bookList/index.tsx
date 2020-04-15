@@ -1,14 +1,41 @@
 import { connect } from 'react-redux';
-import { State } from '../../reducers';
+import { INumberCollectionState } from '../../reducers';
 import { NumberViewerComponent } from './components';
+import React, { Component } from 'react';
+import { Dispatch } from 'redux';
 
-const mapStateToProps = (state: State) => ({
+export interface OwnProps {
+}
+
+interface StateProps {
+    numberCollection: number[]
+}
+
+interface DispatchProps {
+}
+
+type Props = StateProps & DispatchProps & OwnProps
+
+export class NumberViewerContainer extends Component<Props> {
+    handleOnClick = () => {
+        console.log('Thuan');
+    }
+
+    render = () => {
+        return <NumberViewerComponent
+            onClickIncreaseButton={this.handleOnClick}
+            numberCollection={this.props.numberCollection}
+        />;
+    }
+}
+
+const mapStateToProps = (state: INumberCollectionState, ownProps: OwnProps): StateProps => ({
     numberCollection: state.numberCollection,
 });
 
-const mapDispatchToProps = (dispatch: any) => ({});
+const mapDispatchToProps = (dispatch: Dispatch, ownProps: OwnProps): DispatchProps => ({});
 
-export const NumberViewerContainer = connect(
+export default connect<StateProps, DispatchProps, OwnProps, INumberCollectionState>(
     mapStateToProps,
     mapDispatchToProps
-)(NumberViewerComponent);
+)(NumberViewerContainer);

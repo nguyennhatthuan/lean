@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { NumberViewerContainer } from './components/bookList';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,8 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <NumberViewerContainer
+        numberCollection={[0]} />
     </div>
   );
 }
